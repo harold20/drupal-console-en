@@ -18,15 +18,15 @@ questions:
   statistics: 'Allow to collect and send this information to drupalConsole server?'
 messages:
   statistics: |
-      Help us to improve the Drupal Console project, allowing to provide information about how you use the application.
-      The information that will be collected would be
+      Help us improve the Drupal Console project, providing information about how you use the application.
+      The information that would be collected
 
-      - Language used
-      - Command executed
-      - Lines of code generated if is a generator command
+      - Used language
+      - Executed command
+      - Generated lines of code
 
       You could read about our privacy policy at http://drupalconsole.com/privacy.
   statistics-disable: |
-      You can always disable the sending of information using the following command
+      You can stop sending information using the following command:
 
-      drupal settings:set share.statistics false
+      drupal settings:set statistics.enabled false
