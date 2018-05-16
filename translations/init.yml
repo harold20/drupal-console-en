@@ -19,7 +19,7 @@ questions:
 messages:
   statistics: |
       Help us improve the Drupal Console project, providing information about how you use the application.
-      The information that would be collected
+      The colleted information at "%s", would be:
 
       - Used language
       - Executed command
