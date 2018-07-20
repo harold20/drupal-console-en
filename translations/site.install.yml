@@ -2,6 +2,7 @@ description: 'Install a Drupal project'
 arguments:
   profile: 'Drupal Profile to be installed'
   langcode: 'Drupal language'
+  db-url: 'Use Database url to be used in install instead of using parameters'
   db-type: 'Drupal Database type to be used in install'
   db-file: 'Drupal Database file to be used in install'
   site-name: 'Drupal site name'
