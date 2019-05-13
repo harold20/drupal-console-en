@@ -25,8 +25,8 @@ examples:
         --class="DefaultCKEditorButton" \
         --label="Default ckeditor button" \
         --plugin-id="default_ckeditor_button" \
-        --buttons='name":"Default ckeditor button", "label":"Default ckeditor button", "icon":"modules/custom/modulename/js/plugins/default_ckeditor_button/images/icon.png"' \
-        --buttons='name":"My ckeditor button", "label":"My ckeditor button", "icon":"modules/custom/modulename/js/plugins/my_ckeditor_button/images/icon.png"' \
+        --buttons='name":"Default ckeditor button" | "label":"Default ckeditor button" | "icon":"modules/custom/modulename/js/plugins/default_ckeditor_button/images/icon.png"' \
+        --buttons='name":"My ckeditor button" | "label":"My ckeditor button" | "icon":"modules/custom/modulename/js/plugins/my_ckeditor_button/images/icon.png"' \
         --no-interaction
 
       drupal generate:plugin:ckeditorbutton  \
@@ -35,4 +35,4 @@ examples:
         --label="Default ckeditor button"  \
         --plugin-id="default ckeditor button"  \
         --button-name="Default ckeditor button"  \
-        --button-icon-path="modules/custom/modulename/js/plugins/default ckeditor button/images/icon.png"
+        --buttons='name":"Default ckeditor button" | "label":"Default ckeditor button" | "icon":"modules/custom/modulename/js/plugins/default_ckeditor_button/images/icon.png"'

@@ -24,7 +24,7 @@ examples:
   - description: 'Generate controller specifying the module name, the class name and its routes'
     execution: |
       drupal generate:controller  \
-        --module="modulename"  \
+        --module="block"  \
         --class="DefaultController"  \
-        --routes='"title":"ControllerMethod", "name":"modulename.default_controller_hello", "method":"hello", "path":"/modulename/hello/{name}"'  \
+        --routes='"title":"ControllerMethod" | "name":"modulename.default_controller_hello" | "method":"hello" | "path":"/modulename/hello/{name}"'  \
         --test

@@ -51,8 +51,8 @@ examples:
         --license="GPL-2.0+" \
         --homepage="https://www.drupal.org/project/module_name" \
         --minimum-stability="stable" \
-        --authors='"name":"Author name", "email":"author@email.com", "homepage":"http://website.com", "role":"Developer"' \
-        --support='"channel":"email", "url":"author@email.com"' \
-        --support='"channel":"source", "url":"http://github.com"' \
-        --required='"name":"drupal/views", "version":"^1.0"' \
-        --required='"name":"drupal/token", "version":"^2.0"'
+        --authors='"name":"Author name" | "email":"author@email.com" | "homepage":"http://website.com" | "role":"Developer"' \
+        --support='"channel":"email" | "url":"author@email.com"' \
+        --support='"channel":"source" | "url":"http://github.com"' \
+        --required='"name":"drupal/views" | "version":"^1.0"' \
+        --required='"name":"drupal/token" | "version":"^2.0"'

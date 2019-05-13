@@ -29,4 +29,4 @@ examples:
         --label="Default Action" \
         --plugin-id="default_condition" \
         --category="Action category" \
-        --context='"name":"user", "type":"entity:user", "label":"Context label", "description":"Context description"'
+        --context='"name":"user" | "type":"entity:user" | "label":"Context label" | "description":"Context description"'

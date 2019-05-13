@@ -35,7 +35,7 @@ examples:
         --plugin-id="default_plugin_class"  \
         --table="users"  \
         --alias="u"  \
-        --fields='"id":"id", "description":"the user id"'  \
-        --fields='"id":"username", "description":"the username"'  \
-        --fields='"id":"password", "description":"the user password"'  \
-        --fields='"id":"email", "description":"the user email"'
+        --fields='"id":"id" | "description":"the user id"'  \
+        --fields='"id":"username" | "description":"the username"'  \
+        --fields='"id":"password" | "description":"the user password"'  \
+        --fields='"id":"email" | "description":"the user email"'

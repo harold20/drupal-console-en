@@ -27,5 +27,5 @@ examples:
     execution: |
       drupal generate:form:alter  \
         --module="modulename"  \
-        --inputs='"name":"inputtext", "type":"text_format", "label":"InputText", "options":"", "description":"Just an input text", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
-        --inputs='"name":"email", "type":"email", "label":"Email", "options":"", "description":"Just an email input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'
+        --inputs='"name":"inputtext" | "type":"text_format" | "label":"InputText" | "options":"" | "description":"Just an input text" | "maxlength":"" | "size":"" | "default_value":"" | "weight":"0" | "fieldset":""'  \
+        --inputs='"name":"email" | "type":"email" | "label":"Email" | "options":"" | "description":"Just an email input" | "maxlength":"" | "size":"" | "default_value":"" | "weight":"0" | "fieldset":""'

@@ -18,6 +18,4 @@ examples:
     execution: |
       drupal generate:plugin:views:field  \
         --module="modulename"  \
-        --class="CustomViewsField"  \
-        --title="Custom views field"  \
-        --description="My awesome custom views field plugin."
+        --fields='"title":"Custom views field" | "description":"My awesome custom views field plugin." | "class_name":"CustomViewsField" | "class_machine_name":"custom_views_field"'

@@ -29,7 +29,7 @@ examples:
         --label="Default Action" \
         --plugin-id="default_action" \
         --category="Action category" \
-        --context='"name":"user", "type":"entity:user", "label":"Context label", "description":"Context description"'
+        --context='"name":"user" | "type":"entity:user" | "label":"Context label" | "description":"Context description"'
   - description: 'Generate a entity rule action plugin specifying the module name, the class, its label, the plugin id, the type, the category and its context'
     execution: |
       drupal generate:plugin:rules:action \
@@ -38,4 +38,4 @@ examples:
         --label="Default Action" \
         --plugin-id="default_action" \
         --category="Action category" \
-        --context='"entity":"node", "type":"entity", "label":"Context label", "description":"Context description"'
+        --context='"entity":"node" | "type":"entity" | "label":"Context label" | "description":"Context description"'

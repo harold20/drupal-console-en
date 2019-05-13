@@ -13,3 +13,10 @@ questions:
 suggestions:
   access-content: 'Access content'
   allow-access-content: 'Allow access to my content'
+examples:
+  - description: 'Generate a permission'
+    execution: |
+      drupal generate:permissions \
+        --module="modulename"  \
+        --permissions='"permission":"access content" | "title":"Access content" | "description":"Allow access to my content" | "restrict_access":"none"' \
+        --permissions='"permission":"access content 2" | "title":"Access content 2" | "description":"Allow access to my content 2" | "restrict_access":"none"'
