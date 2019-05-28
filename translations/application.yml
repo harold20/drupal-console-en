@@ -58,6 +58,11 @@ errors:
       If you want to enable it again, use the following command:
 
       drupal settings:set statistics.enabled true
+    statistics-url-failed: |
+      The Drupal console failed to send statistics.
+      You must configure it in the global config.yml, use the following command and choose your preference:
+
+      drupal init
 site:
     messages:
         path: 'Site path'
