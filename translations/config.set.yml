@@ -1,4 +1,4 @@
-description: 'Override config value in active configuration.'
+description: 'Set config value in active configuration storage.'
 questions:
     name: 'Enter configuration name'
     key: 'Enter the configuration key'
@@ -12,13 +12,13 @@ messages:
     configuration: 'Configuration name'
     configuration-key: 'Configuration key'
     original: 'Original Value'
-    updated: 'Override Value'
+    updated: 'Set Value'
     invalid-name: 'Config object "%s" does not exist.'
     invalid-config-file: 'Config file does not exist.'
 examples:
-    - description: "Override options from the Who's new view"
+    - description: "Set options from the Who's new view"
       execution: |
-        drupal config:override views.view.who_s_new \
+        drupal config:set views.view.who_s_new \
           --key='langcode' \
           --key='label' \
           --key='display.default.position' \
